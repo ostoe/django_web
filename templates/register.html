@@ -1,0 +1,149 @@
+{% extends '__base__.html' %}
+
+{% block _script %}
+
+<script>
+function validateEmail(email) {
+    var re = /^[a-z0-9\.\-\_]+\@[a-z0-9\-\_]+(\.[a-z0-9\-\_]+){1,4}$/;
+    return re.test(email);
+}
+
+function submitForm() {
+    var username= document.getElementById("name").value;
+    var useremail = document.getElementById('email').value;
+    var passwd0 = document.getElementById("passwd0").value;
+    var passwd1 = document.getElementById("passwd1").value;
+
+    if (! username.trim()){
+        myalert('请输入名字');return false;
+    }
+
+    if (! validateEmail(useremail.trim().toLowerCase())) {
+                    myalert('请输入正确的Email地址');return false;
+                    {#return $form.showFormError('请输入正确的Email地址');#}
+                }
+    if (passwd0.length < 6){
+        myalert('请输入大于6位数的密码');return false;
+    }
+    if (passwd0 !== passwd1) {
+                    {#return $form.showFormError('两次输入的口令不一致');#}
+                    myalert('两次输入的口令不一致');return false;
+
+
+                }
+    var email = useremail.trim().toLowerCase();
+
+    $.post("/register/",{
+                    name: username.trim(),
+                    email: email,
+                    passwd: CryptoJS.SHA1(email + ':' + passwd0).toString()
+                },
+        function(data, status){
+            if (data.status == false) {
+                myalert('Email已注册');return false;
+
+            }
+            else {
+                myalert("注册成功");
+                return location.assign('/');
+            }
+
+        });
+   }
+
+function enterIn(evt){
+  var evt=evt?evt:(window.event?window.event:null);//兼容IE和FF
+  if (evt.keyCode==13){
+  submitForm();
+}
+}
+
+</script>
+
+
+{% endblock %}
+
+
+{% block content_section %}
+            <section class="blog-content">
+                <div class="container">
+                    <div class="row">
+                        <main class="col-md-12 " style="display: block;">
+                            <article class="blog-item">
+
+                                <div class="col-md-6 col-md-offset-2 col-lg-offset-2">
+                                    <h2 class="col-md-12 col-md-offset-3">welcome to register</h2>
+                                    <form id="myForm" onkeydown="enterIn(event);">
+                                        <div class="raw">
+                                            <div class="col-md-12 col-md-offset-3">
+                                                <div class="form-group ">
+                                                    <input  name="name"  type="text" class="form-control" id="name" maxlength="50" required="required" placeholder="User Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-md-offset-3">
+                                                <div class="form-group">
+                                                    <input name="email"  type="email" class="form-control" id="email" maxlength="50" required="required" placeholder="Email Address">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-md-offset-3">
+                                                <div class="form-group">
+                                                    <input name="passwd1"  type="password" maxlength="50" class="form-control" id="passwd0" required="required" placeholder="Your Password">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 col-md-offset-3">
+                                                <div class="form-group">
+                                                    <input name="passwd2" type="password" maxlength="50" class="form-control" id="passwd1" required="required" placeholder="Your Password">
+                                                </div>
+                                            </div>
+{#                                            <div class="col-md-3 input-group-btn">#}
+{#                                                <textarea name="message" type="text" class="form-control" id="message" rows="4" required="required" placeholder="Type here message"></textarea>#}
+{#                                            </div>#}
+                                        </div>
+                                        <div class="col-md-12 col-md-offset-3 col-lg-6">
+                                            <button type="button" id="submit" name="submit" class="btn btn-black" onclick="submitForm();">submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </article>
+                        </main>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <br><br><br><br>
+            </section>
+
+
+{#            <section>#}
+{#            <script type="text/javascript">#}
+{#                function validate_email(field,alerttxt)#}
+{#                {#}
+{#                with (field)#}
+{#                {#}
+{#                apos=value.indexOf("@")#}
+{#                dotpos=value.lastIndexOf(".")#}
+{#                if (apos<1||dotpos-apos<2)#}
+{#                  {alert(alerttxt);return false}#}
+{#                else {return true}#}
+{#                }#}
+{#                }#}
+{##}
+{#                function validate_form(thisform)#}
+{#                {#}
+{#                with (thisform)#}
+{#                {#}
+{#                if (validate_email(email,"Not a valid e-mail address!")==false)#}
+{#                  {email.focus();return false}#}
+{#                }#}
+{#                }#}
+{#                </script>#}
+{##}
+{#                    <form  onsubmit="return validate_form(this);" method="post">#}
+{#                    Email: <input type="text" name="email" size="30">#}
+{#                    <input type="submit" value="Submit">#}
+{#                    </form>#}
+{#            </section>#}
+
+
+
+{% endblock %}

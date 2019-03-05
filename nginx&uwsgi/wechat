@@ -1,0 +1,10 @@
+server {
+    listen      8090;
+
+    client_max_body_size 1m;
+    location /wx {
+    include uwsgi_params;
+    uwsgi_pass 127.0.0.1:3031;
+}
+
+}

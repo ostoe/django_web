@@ -1,0 +1,452 @@
+{% extends '__base__.html' %}
+
+{#{% block title %}{{ blog.name }}{% endblock %}#}
+
+{% block beforehead %}
+
+{% endblock %}
+
+{% block _script %}
+    <script type="text/javascript">
+            $(function() {
+
+                $('.portfolio-item > .item-image').each( function() { $(this).hoverdir({
+                    hoverDelay : 75
+                }); } );
+
+            });
+        </script>
+
+
+        <!-- script for twitter-feed using owl carousel-->
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                $("#twit").owlCarousel({
+
+                    navigation : true, // Show next and prev buttons
+                    slideSpeed : 100,
+                    paginationSpeed : 400,
+                    navigationText : false,
+                    singleItem: true,
+                    autoPlay: true,
+                    pagination: false
+                });
+
+            });
+        </script>
+
+
+        <!-- script for testimonial section using owl carousel -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                $("#client-speech").owlCarousel({
+
+                    autoPlay: 5000, //Set AutoPlay to 3 seconds
+                    stopOnHover: true,
+                    singleItem:true
+                });
+
+            });
+        </script>
+{% endblock %}
+
+{% block header_start %}
+                <!-- header start -->
+            <header id="header" class="header-wrapper home-parallax home-fade">
+
+                <div class="header-overlay"></div>
+                <div class="header-wrapper-inner">
+                    <div class="container">
+                        <div class="welcome-speech">
+                            <h1>Welcome to linhai's home</h1>
+                            <p>enjoying you life</p>
+                            <a href="/blogs" class="btn btn-white">
+                                blogs
+                            </a>
+                        </div><!-- /.intro -->
+                    </div><!-- /.container -->
+                </div><!-- /.header-wrapper-inner -->
+            </header>
+
+{% endblock %}
+
+{% block content_section %}
+                    <section class="intro bg-light-gray">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="/static/img/intro.jpg" class="img-responsive center-block" alt="intro">
+                            </div>
+
+                            <div class="col-md-7">
+                                <div class="intro-description">
+                                    <h2>Start to writing a blog</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ante ex, fermentum vel libero eget interdum semper libero. Curabitur egestas, arcu id tempor convallis.
+                                    </p>
+
+                                    <ul class="points">
+                                        <li>
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                            Vestibulum pulvinar commodo malesuada.
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                            Pellentesque id massa et ligula convallis porta.
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                            Vivamus sed nunc sed ligula rhoncus sit amet eu elit.
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                            Curabitur in ipsum vel ipsum vehicula congue.
+                                        </li>
+                                    </ul> <!-- end of /.points -->
+
+                                    <a href="/write.blog" class="btn btn-slategray">
+                                        write blog
+                                    </a> <!-- /purchase button -->
+                                </div> <!-- end of /.intro-description -->
+                            </div>
+                        </div>
+                    </div> <!-- end of /.container -->
+                </section>
+                <!--  end of intro section -->
+
+                <!--  begin portfolio section  -->
+                <section class="bg-light-gray">
+                    <div class="container">
+
+                        <div class="headline text-center">
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <h2 class="section-title">something</h2>
+                                    <p class="section-sub-title">
+                                        some blogs maybe you like
+                                    </p> <!-- /.section-sub-title -->
+                                </div>
+                            </div>
+                        </div> <!-- /.headline -->
+
+                        <div class="portfolio-item-list">
+                            <div class="row">
+
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="portfolio-item">
+                                        <div class="item-image">
+                                            <a href="#">
+                                                <img src="/static/img/portfolio1.jpg" class="img-responsive center-block" alt="portfolio1">
+                                                <div><span><i class="fa fa-plus"></i></span></div>
+                                            </a>
+                                        </div>
+
+                                        <div class="item-description">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <span class="item-name">
+                                                        Oliver a Note
+                                                    </span>
+                                                    <span>
+                                                        Fashion
+                                                    </span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <span class="like">
+                                                        <i class="fa fa-heart-o"></i>
+                                                        576
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end of /.item-description -->
+                                    </div> <!-- end of /.portfolio-item -->
+                                </div>
+
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="portfolio-item">
+                                        <div class="item-image">
+                                            <a href="#">
+                                                <img src="/static/img/portfolio2.jpg" class="img-responsive center-block" alt="portfolio2">
+                                                <div><span><i class="fa fa-plus"></i></span></div>
+                                            </a>
+                                        </div>
+
+                                        <div class="item-description">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <span class="item-name">
+                                                        Shift Magazine
+                                                    </span>
+                                                    <span>
+                                                        Photography
+                                                    </span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <span class="like">
+                                                        <i class="fa fa-heart-o"></i>
+                                                        576
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end of /.item-description -->
+                                    </div> <!-- end of /.portfolio-item -->
+                                </div>
+
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="portfolio-item">
+                                        <div class="item-image">
+                                            <a href="#">
+                                                <img src="/static/img/portfolio3.jpg" class="img-responsive center-block" alt="portfolio3">
+                                                <div><span><i class="fa fa-plus"></i></span></div>
+                                            </a>
+                                        </div>
+
+                                        <div class="item-description">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <span class="item-name">
+                                                        Camp Pine Tree
+                                                    </span>
+                                                    <span>
+                                                        Web Design
+                                                    </span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <span class="like">
+                                                        <i class="fa fa-heart-o"></i>
+                                                        576
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end of /.item-description -->
+                                    </div> <!-- end of /.portfolio-item -->
+
+                                </div>
+
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="portfolio-item">
+                                        <div class="item-image">
+                                            <a href="#">
+                                                <img src="/static/img/portfolio4.jpg" class="img-responsive center-block" alt="portfolio4">
+                                                <div><span><i class="fa fa-plus"></i></span></div>
+                                            </a>
+                                        </div>
+
+                                        <div class="item-description">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <span class="item-name">
+                                                        Free Art App Design
+                                                    </span>
+                                                    <span>
+                                                        Photography
+                                                    </span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <span class="like">
+                                                        <i class="fa fa-heart-o"></i>
+                                                        576
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end of /.item-description -->
+                                    </div> <!-- end of /.portfolio-item -->
+                                </div>
+
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="portfolio-item">
+                                        <div class="item-image">
+                                            <a href="#">
+                                                <img src="/static/img/portfolio5.jpg" class="img-responsive center-block" alt="portfolio5">
+                                                <div><span><i class="fa fa-plus"></i></span></div>
+                                            </a>
+                                        </div>
+
+                                        <div class="item-description">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <span class="item-name">
+                                                        Large Poster Set
+                                                    </span>
+                                                    <span>
+                                                        Marketing
+                                                    </span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <span class="like">
+                                                        <i class="fa fa-heart-o"></i>
+                                                        576
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end of /.item-description -->
+                                    </div> <!-- end of /.portfolio-item -->
+                                </div>
+
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="portfolio-item">
+                                        <div class="item-image">
+                                            <a href="#">
+                                                <img src="/static/img/portfolio6.jpg" class="img-responsive center-block" alt="portfolio6">
+                                                <div><span><i class="fa fa-plus"></i></span></div>
+                                            </a>
+                                        </div>
+
+                                        <div class="item-description">
+                                            <div class="row">
+                                                <div class="col-xs-6">
+                                                    <span class="item-name">
+                                                        Skilet Album Cover
+                                                    </span>
+                                                    <span>
+                                                        Business
+                                                    </span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <span class="like">
+                                                        <i class="fa fa-heart-o"></i>
+                                                        576
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> <!-- end of /.item-description -->
+                                    </div> <!-- end of /.portfolio-item -->
+                                </div>
+                            </div>
+                        </div> <!-- end of portfolio-item-list -->
+                    </div>
+                </section>
+                <!--   end of portfolio section  -->
+
+
+                <!--  begin testimonial section  -->
+
+{#                <section class="bg-light-gray">#}
+{#                    <div class="container">#}
+{##}
+{#                        <div class="headline text-center">#}
+{#                            <div class="row">#}
+{#                                <div class="col-md-6 col-md-offset-3">#}
+{#                                    <h2 class="section-title">testimonials</h2>#}
+{#                                    <p class="section-sub-title">#}
+{#                                        someone maybe you like#}
+{#                                    </p> <!-- /.section-sub-title -->#}
+{#                                </div>#}
+{#                            </div>#}
+{#                        </div> <!-- /.headline -->#}
+{##}
+{#                        <div id="client-speech" class="owl-carousel owl-theme">#}
+{##}
+{#                            <div class="item">#}
+{#                                <div class="row">#}
+{#                                    <div class="col-md-6">#}
+{#                                        <div class="client-box">#}
+{#                                            <div class="about-client">#}
+{#                                                <img src="/static/img/client1.jpg" alt="client1">#}
+{#                                                <p class="client-intro">someone</p>#}
+{#                                            </div> <!-- end of /.about-client -->#}
+{#                                            <div class="main-speech">#}
+{#                                                <p>#}
+{#                                                    something#}
+{#                                                </p>#}
+{#                                            </div> <!-- end of /.main-speech  -->#}
+{#                                        </div> <!-- end of /.client-box -->#}
+{#                                    </div>#}
+{##}
+{#                                    <div class="col-md-6">#}
+{#                                        <div class="client-box">#}
+{#                                            <div class="about-client">#}
+{#                                                <img src="/static/img/client2.jpg" alt="client2">#}
+{#                                                <p class="client-intro">someone</p>#}
+{#                                            </div> <!-- end of /.about-client -->#}
+{#                                            <div class="main-speech">#}
+{#                                                <p>#}
+{#                                                    It is a long established#}
+{#                                                </p>#}
+{#                                            </div> <!-- end of /.main-speech  -->#}
+{#                                        </div> <!-- end of /.client-box -->#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                            </div>#}
+{##}
+{#                            <div class="item">#}
+{#                                <div class="row">#}
+{#                                    <div class="col-md-6">#}
+{#                                        <div class="client-box">#}
+{#                                            <div class="about-client">#}
+{#                                                <img src="/static/img/client1.jpg" alt="client3">#}
+{#                                                <p class="client-intro">technext-ceo</p>#}
+{#                                            </div> <!-- end of /.about-client -->#}
+{#                                            <div class="main-speech">#}
+{#                                                <p>#}
+{#                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.#}
+{#                                                </p>#}
+{#                                            </div> <!-- end of /.main-speech  -->#}
+{#                                        </div> <!-- end of /.client-box -->#}
+{#                                    </div>#}
+{##}
+{#                                    <div class="col-md-6">#}
+{#                                        <div class="client-box">#}
+{#                                            <div class="about-client">#}
+{#                                                <img src="/static/img/client2.jpg" alt="client4">#}
+{#                                                <p class="client-intro">technext-ceo</p>#}
+{#                                            </div> <!-- end of /.about-client -->#}
+{#                                            <div class="main-speech">#}
+{#                                                <p>#}
+{#                                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.#}
+{#                                                </p>#}
+{#                                            </div> <!-- end of /.main-speech  -->#}
+{#                                        </div> <!-- end of /.client-box -->#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                            </div>#}
+{##}
+{#                            <div class="item">#}
+{#                                <div class="row">#}
+{#                                    <div class="col-md-6">#}
+{#                                        <div class="client-box">#}
+{#                                            <div class="about-client">#}
+{#                                                <img src="/static/img/client1.jpg" alt="client5">#}
+{#                                                <p class="client-intro">technext-ceo</p>#}
+{#                                            </div> <!-- end of /.about-client -->#}
+{#                                            <div class="main-speech">#}
+{#                                                <p>#}
+{#                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.#}
+{#                                                </p>#}
+{#                                            </div> <!-- end of /.main-speech  -->#}
+{#                                        </div> <!-- end of /.client-box -->#}
+{#                                    </div>#}
+{##}
+{#                                    <div class="col-md-6">#}
+{#                                        <div class="client-box">#}
+{#                                            <div class="about-client">#}
+{#                                                <img src="/static/img/client2.jpg" alt="client6">#}
+{#                                                <p class="client-intro">technext-ceo</p>#}
+{#                                            </div> <!-- end of /.about-client -->#}
+{#                                            <div class="main-speech">#}
+{#                                                <p>#}
+{#                                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.#}
+{#                                                </p>#}
+{#                                            </div> <!-- end of /.main-speech  -->#}
+{#                                        </div> <!-- end of /.client-box -->#}
+{#                                    </div>#}
+{#                                </div>#}
+{#                            </div>#}
+{##}
+{#                        </div> <!-- end of /#client-speech  /.owl-carousel -->#}
+{##}
+{#                    </div> <!-- end of .container -->#}
+{#                </section>#}
+                <!--  end of testimonial  section -->
+{% endblock %}
+

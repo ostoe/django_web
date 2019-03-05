@@ -1,0 +1,1247 @@
+ii
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Jan 20 22:53:09 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x153e980
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x153e980 pid: 1652 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 1652, cores: 1)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Jan 20 23:06:28 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x10bcd90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x10bcd90 pid: 2318 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2318, cores: 1)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Jan 20 23:07:48 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7e9d90
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7e9d90 pid: 2408 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2408, cores: 1)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Jan 20 23:14:03 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1956980
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1956980 pid: 2526 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2526, cores: 1)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Jan 20 23:15:07 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2555980
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2555980 pid: 2548 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2548, cores: 1)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Jan 20 23:15:19 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1247980
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1247980 pid: 2554 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2554, cores: 1)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 10:10:48 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 10:10:50 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 10:10:52 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 10:10:56 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 10:14:57 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xafe300
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xafe300 pid: 5981 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 5981, cores: 1)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 10:16:00 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 10:16:02 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 10:16:04 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+[uwsgi-static] added mapping for /static => /srv/django_mysite/static
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 10:16:09 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...552 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8001).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 13:42:11 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8086 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2171860
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2171860 pid: 4082 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 4082, cores: 1)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 13:42:42 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 13:42:43 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 13:42:46 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 13:42:49 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 4082|app: 0|req: 1/1] 36.71.59.78 () {32 vars in 446 bytes} [Mon Jan 21 05:48:18 2019] GET / => generated 26598 bytes in 48 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 13:49:33 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8086 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x18b8860
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x18b8860 pid: 4271 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 4271, cores: 1)
+[pid: 4271|app: 0|req: 1/1] 101.94.255.223 () {46 vars in 771 bytes} [Mon Jan 21 05:50:01 2019] GET / => generated 28004 bytes in 99 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 2/2] 101.94.255.223 () {46 vars in 777 bytes} [Mon Jan 21 05:50:03 2019] GET / => generated 28004 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 3/3] 101.94.255.223 () {46 vars in 787 bytes} [Mon Jan 21 05:50:04 2019] GET /blogs => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 4/4] 101.94.255.223 () {46 vars in 789 bytes} [Mon Jan 21 05:50:04 2019] GET /blogs/ => generated 25012 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 5/5] 101.94.255.223 () {46 vars in 803 bytes} [Mon Jan 21 05:50:05 2019] GET /write.blog => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 6/6] 101.94.255.223 () {46 vars in 805 bytes} [Mon Jan 21 05:50:05 2019] GET /write.blog/ => generated 14091 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 7/7] 101.94.255.223 () {46 vars in 788 bytes} [Mon Jan 21 05:50:08 2019] GET / => generated 28004 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 8/8] 101.94.255.223 () {44 vars in 740 bytes} [Mon Jan 21 06:00:29 2019] GET / => generated 28004 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 9/9] 101.94.255.223 () {46 vars in 791 bytes} [Mon Jan 21 06:00:34 2019] GET /signout => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 10/10] 101.94.255.223 () {46 vars in 793 bytes} [Mon Jan 21 06:00:34 2019] GET /signout/ => generated 0 bytes in 9 msecs (HTTP/1.1 302) 5 headers in 205 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 11/11] 101.94.255.223 () {44 vars in 723 bytes} [Mon Jan 21 06:00:34 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 12/12] 101.94.255.223 () {44 vars in 739 bytes} [Mon Jan 21 06:00:35 2019] GET /register => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 115 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 13/13] 101.94.255.223 () {44 vars in 741 bytes} [Mon Jan 21 06:00:35 2019] GET /register/ => generated 13963 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 14/14] 101.94.255.223 () {50 vars in 852 bytes} [Mon Jan 21 06:00:54 2019] POST /register/ => generated 16 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 15/15] 101.94.255.223 () {46 vars in 786 bytes} [Mon Jan 21 06:00:56 2019] GET / => generated 28004 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 16/16] 101.94.255.223 () {46 vars in 789 bytes} [Mon Jan 21 06:01:00 2019] GET /blogs/ => generated 25012 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 17/17] 101.94.255.223 () {46 vars in 893 bytes} [Mon Jan 21 06:01:04 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 17828 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 18/18] 101.94.255.223 () {54 vars in 1123 bytes} [Mon Jan 21 06:01:11 2019] POST /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 0 bytes in 10 msecs (HTTP/1.1 302) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 19/19] 101.94.255.223 () {48 vars in 973 bytes} [Mon Jan 21 06:01:11 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 19163 bytes in 24 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 20/20] 101.94.255.223 () {46 vars in 844 bytes} [Mon Jan 21 06:01:31 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 21/21] 101.94.255.223 () {46 vars in 893 bytes} [Mon Jan 21 06:01:33 2019] GET /blog/00154799906223357eb90445e5141aa8d3ef58b274ad6bb000 => generated 17886 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 4271|app: 0|req: 22/22] 106.15.176.145 () {34 vars in 464 bytes} [Mon Jan 21 06:04:05 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Gracefully killing worker 1 (pid: 4271)...
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:12:49 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8086 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xddb860
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xddb860 pid: 4599 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 4599, cores: 1)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:14:27 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8086 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7c7ee0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 9 seconds on interpreter 0x7c7ee0 pid: 1319 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 1319, cores: 1)
+[pid: 1319|app: 0|req: 1/1] 101.94.255.223 () {46 vars in 771 bytes} [Mon Jan 21 06:14:43 2019] GET / => generated 28004 bytes in 83 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 1319|app: 0|req: 2/2] 101.94.255.223 () {46 vars in 771 bytes} [Mon Jan 21 06:14:49 2019] GET / => generated 28004 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 1319|app: 0|req: 3/3] 101.94.255.223 () {46 vars in 789 bytes} [Mon Jan 21 06:14:51 2019] GET /blogs/ => generated 25012 bytes in 30 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Internal Server Error: /blog/001548037904444007ead0bec364738b79d6f77ec45095c000
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.5/dist-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./blog/views.py", line 37, in weaper
+    return func(request, *args, **logined, **kwargs)
+  File "./blog/views.py", line 127, in single_blog
+    blog['authorimg'] = obj.head_img.url
+AttributeError: 'QuerySet' object has no attribute 'head_img'
+[pid: 1319|app: 0|req: 4/4] 101.94.255.223 () {46 vars in 893 bytes} [Mon Jan 21 06:14:52 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 65126 bytes in 76 msecs (HTTP/1.1 500) 4 headers in 129 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:16:40 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:16:41 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:16:44 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:16:47 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:19:53 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8086 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1bfc860
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1bfc860 pid: 1652 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 1652, cores: 1)
+[pid: 1652|app: 0|req: 1/1] 101.94.255.223 () {46 vars in 771 bytes} [Mon Jan 21 06:20:38 2019] GET / => generated 28004 bytes in 55 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 1652|app: 0|req: 2/2] 101.94.255.223 () {46 vars in 789 bytes} [Mon Jan 21 06:20:41 2019] GET /blogs/ => generated 25012 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 1652|app: 0|req: 3/3] 101.94.255.223 () {46 vars in 893 bytes} [Mon Jan 21 06:20:42 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 19164 bytes in 31 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 1652|app: 0|req: 4/4] 101.94.255.223 () {46 vars in 852 bytes} [Mon Jan 21 06:20:47 2019] GET /write.blog => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 1652|app: 0|req: 5/5] 101.94.255.223 () {46 vars in 854 bytes} [Mon Jan 21 06:20:47 2019] GET /write.blog/ => generated 14091 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 1652|app: 0|req: 6/6] 101.94.255.223 () {46 vars in 764 bytes} [Mon Jan 21 06:20:50 2019] GET / => generated 28004 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:27:15 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:27:16 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:27:18 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:27:22 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 1652|app: 0|req: 7/7] 91.47.160.189 () {30 vars in 420 bytes} [Mon Jan 21 06:31:29 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:33:27 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:33:29 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:33:32 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:33:35 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8086).
+bind(): Address already in use [core/socket.c line 769]
+[uWSGI] getting INI configuration from /etc/uwsgi/apps-enabled/mysite.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jan 21 14:40:06 2019] ***
+compiled with version: 5.4.0 20160609 on 04 January 2019 14:54:36
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: linhai
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /srv/django_mysite/
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7841
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8086 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1908860
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72904 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1908860 pid: 2367 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2367, cores: 1)
+[pid: 2367|app: 0|req: 1/1] 101.94.255.223 () {48 vars in 819 bytes} [Mon Jan 21 06:40:12 2019] GET / => generated 28004 bytes in 65 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 2/2] 101.94.255.223 () {48 vars in 819 bytes} [Mon Jan 21 06:40:14 2019] GET / => generated 28004 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 3/3] 101.94.255.223 () {46 vars in 789 bytes} [Mon Jan 21 06:40:17 2019] GET /blogs/ => generated 25012 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 4/4] 101.94.255.223 () {46 vars in 764 bytes} [Mon Jan 21 06:40:20 2019] GET / => generated 28004 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 5/5] 106.11.222.179 () {40 vars in 846 bytes} [Mon Jan 21 06:41:20 2019] GET / => generated 26598 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 6/6] 106.11.222.188 () {38 vars in 646 bytes} [Mon Jan 21 06:41:34 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 7/7] 101.94.255.223 () {44 vars in 723 bytes} [Mon Jan 21 06:42:24 2019] GET / => generated 28004 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 8/8] 101.94.255.223 () {44 vars in 723 bytes} [Mon Jan 21 06:42:29 2019] GET / => generated 28004 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 9/9] 101.94.255.223 () {44 vars in 723 bytes} [Mon Jan 21 06:42:30 2019] GET / => generated 28004 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 10/10] 101.94.255.223 () {44 vars in 723 bytes} [Mon Jan 21 06:42:42 2019] GET / => generated 28004 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 11/11] 101.94.255.223 () {44 vars in 723 bytes} [Mon Jan 21 06:42:53 2019] GET / => generated 28004 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 12/12] 101.94.255.223 () {42 vars in 673 bytes} [Mon Jan 21 06:43:20 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 13/13] 101.94.255.223 () {46 vars in 770 bytes} [Mon Jan 21 06:43:47 2019] GET /blogs => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 14/14] 101.94.255.223 () {46 vars in 772 bytes} [Mon Jan 21 06:43:47 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 15/15] 101.84.182.153 () {44 vars in 723 bytes} [Mon Jan 21 07:07:07 2019] GET / => generated 28004 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 16/16] 101.84.182.153 () {46 vars in 772 bytes} [Mon Jan 21 07:07:13 2019] GET /blogs/ => generated 25012 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 17/17] 61.151.180.39 () {46 vars in 1378 bytes} [Mon Jan 21 07:08:52 2019] GET /?nsukey=25YudeUEdYDGPtLfvsieqvh30kTEXIk54ey4muOtP08QlDAkyc62FIr5i38CAtn4VcN5n5xfhfgOawe2oo4rOohVZyvIc5EGcssQ4UOBVtDw4AZi9UF2F2F07sJkicqEQfrg0hD0BBBzsbP2FdGrFl7rrHMmP2FktXQ8oOxyzl2BAcSLBiOumuxJr0jVY7HB62B3XxYOveHrWgsPX8sHudWlwREfw3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 18/18] 223.166.151.236 () {42 vars in 705 bytes} [Mon Jan 21 07:08:52 2019] GET / => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 19/19] 120.204.17.69 () {42 vars in 703 bytes} [Mon Jan 21 07:08:52 2019] GET / => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 20/20] 61.151.178.177 () {36 vars in 645 bytes} [Mon Jan 21 07:09:17 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 21/21] 101.84.182.153 () {46 vars in 772 bytes} [Mon Jan 21 07:09:44 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 22/22] 101.84.182.153 () {46 vars in 876 bytes} [Mon Jan 21 07:09:50 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 19163 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 23/23] 180.97.118.223 () {36 vars in 1076 bytes} [Mon Jan 21 07:09:51 2019] GET /?nsukey=25YudeUEdYDGPtLfvsieqvh30kTEXIk54ey4muOtP08QlDAkyc6%2FIr5i38CAtn4VcN5n5xfhfgOawe2oo4rOohVZyvIc5EGcssQ4UOBVtDw4AZi9UF%2F%2F07sJkicqEQfrg0hD0BBBzsbP%2FdGrFl7rrHMmP%2FktXQ8oOxyzl%2BAcSLBiOumuxJr0jVY7HB6%2B3XxYOveHrWgsPX8sHudWlwREfw%3D%3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 24/24] 123.114.3.231 () {40 vars in 667 bytes} [Mon Jan 21 07:09:55 2019] GET / => generated 26598 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 25/25] 123.114.3.231 () {42 vars in 716 bytes} [Mon Jan 21 07:10:02 2019] GET /signin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 26/26] 123.114.3.231 () {42 vars in 718 bytes} [Mon Jan 21 07:10:02 2019] GET /signin/ => generated 12574 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 27/27] 123.114.3.231 () {42 vars in 727 bytes} [Mon Jan 21 07:10:17 2019] GET /register => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 115 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 28/28] 123.114.3.231 () {42 vars in 729 bytes} [Mon Jan 21 07:10:17 2019] GET /register/ => generated 13963 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 29/29] 101.84.182.153 () {44 vars in 723 bytes} [Mon Jan 21 07:10:34 2019] GET / => generated 28004 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 30/30] 101.84.182.153 () {46 vars in 772 bytes} [Mon Jan 21 07:10:38 2019] GET /blogs/ => generated 25012 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 31/31] 101.84.182.153 () {46 vars in 876 bytes} [Mon Jan 21 07:10:45 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 19163 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 32/32] 101.84.182.153 () {46 vars in 876 bytes} [Mon Jan 21 07:10:49 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 19163 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 33/33] 123.114.3.231 () {48 vars in 844 bytes} [Mon Jan 21 07:10:54 2019] POST /register/ => generated 16 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 34/34] 123.114.3.231 () {44 vars in 767 bytes} [Mon Jan 21 07:10:58 2019] GET / => generated 28004 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 35/35] 123.114.3.231 () {44 vars in 768 bytes} [Mon Jan 21 07:11:02 2019] GET /blogs => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 36/36] 123.114.3.231 () {44 vars in 770 bytes} [Mon Jan 21 07:11:02 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 37/37] 123.114.3.231 () {44 vars in 874 bytes} [Mon Jan 21 07:11:17 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 19163 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 38/38] 123.114.3.231 () {44 vars in 825 bytes} [Mon Jan 21 07:11:58 2019] GET /blogs/ => generated 25012 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 39/39] 202.120.209.4 () {46 vars in 743 bytes} [Mon Jan 21 07:29:44 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 40/40] 202.120.209.4 () {46 vars in 766 bytes} [Mon Jan 21 07:29:56 2019] GET /blogs => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 41/41] 202.120.209.4 () {46 vars in 768 bytes} [Mon Jan 21 07:29:57 2019] GET /blogs/ => generated 23606 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 42/42] 202.120.209.4 () {46 vars in 782 bytes} [Mon Jan 21 07:29:57 2019] GET /write.blog => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 117 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 43/43] 202.120.209.4 () {46 vars in 784 bytes} [Mon Jan 21 07:29:57 2019] GET /write.blog/ => generated 12685 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 44/44] 202.120.209.4 () {46 vars in 783 bytes} [Mon Jan 21 07:29:58 2019] GET /register => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 115 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 45/45] 202.120.209.4 () {46 vars in 785 bytes} [Mon Jan 21 07:29:58 2019] GET /register/ => generated 13963 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 46/46] 202.120.209.4 () {46 vars in 777 bytes} [Mon Jan 21 07:29:59 2019] GET /signin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 47/47] 202.120.209.4 () {46 vars in 779 bytes} [Mon Jan 21 07:29:59 2019] GET /signin/ => generated 12574 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 48/48] 202.120.209.4 () {46 vars in 781 bytes} [Mon Jan 21 07:30:00 2019] GET /register/ => generated 13963 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 49/49] 202.120.209.4 () {46 vars in 779 bytes} [Mon Jan 21 07:30:00 2019] GET /signin/ => generated 12574 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 50/50] 202.120.209.4 () {52 vars in 879 bytes} [Mon Jan 21 07:30:05 2019] POST /signin/ => generated 31 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 51/51] 202.120.209.4 () {52 vars in 879 bytes} [Mon Jan 21 07:30:09 2019] POST /signin/ => generated 18 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 52/52] 202.120.209.4 () {46 vars in 804 bytes} [Mon Jan 21 07:30:10 2019] GET / => generated 28004 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 53/53] 202.120.209.4 () {46 vars in 811 bytes} [Mon Jan 21 07:30:15 2019] GET /signout => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 114 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 54/54] 202.120.209.4 () {46 vars in 813 bytes} [Mon Jan 21 07:30:15 2019] GET /signout/ => generated 0 bytes in 8 msecs (HTTP/1.1 302) 5 headers in 205 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 55/55] 202.120.209.4 () {46 vars in 756 bytes} [Mon Jan 21 07:30:15 2019] GET / => generated 26598 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 56/56] 202.120.209.4 () {46 vars in 774 bytes} [Mon Jan 21 07:30:16 2019] GET /register/ => generated 13963 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 57/57] 202.120.209.4 () {52 vars in 887 bytes} [Mon Jan 21 07:30:33 2019] POST /register/ => generated 16 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 58/58] 202.120.209.4 () {46 vars in 796 bytes} [Mon Jan 21 07:30:35 2019] GET / => generated 28004 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 59/59] 202.120.209.4 () {46 vars in 818 bytes} [Mon Jan 21 07:30:51 2019] GET /write.blog/ => generated 14091 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 60/60] 202.120.209.4 () {46 vars in 835 bytes} [Mon Jan 21 07:31:18 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 61/61] 202.120.209.4 () {46 vars in 824 bytes} [Mon Jan 21 07:31:19 2019] GET /write.blog/ => generated 14091 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 62/62] 202.120.209.4 () {46 vars in 840 bytes} [Mon Jan 21 07:31:20 2019] GET /blogs/ => generated 25012 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 63/63] 202.120.209.4 () {46 vars in 912 bytes} [Mon Jan 21 07:31:22 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 19163 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 64/64] 202.120.209.4 () {46 vars in 851 bytes} [Mon Jan 21 07:31:25 2019] GET / => generated 28004 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 65/65] 202.120.209.4 () {40 vars in 646 bytes} [Mon Jan 21 07:31:31 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 66/66] 202.120.209.4 () {42 vars in 693 bytes} [Mon Jan 21 07:31:45 2019] GET /blogs => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 67/67] 202.120.209.4 () {42 vars in 695 bytes} [Mon Jan 21 07:31:45 2019] GET /blogs/ => generated 23606 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 68/68] 202.120.209.4 () {46 vars in 835 bytes} [Mon Jan 21 07:31:53 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 69/69] 202.120.209.4 () {46 vars in 912 bytes} [Mon Jan 21 07:31:57 2019] GET /blog/00154799906223357eb90445e5141aa8d3ef58b274ad6bb000 => generated 17886 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 70/70] 202.120.209.4 () {54 vars in 1142 bytes} [Mon Jan 21 07:32:03 2019] POST /blog/00154799906223357eb90445e5141aa8d3ef58b274ad6bb000 => generated 0 bytes in 10 msecs (HTTP/1.1 302) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 71/71] 202.120.209.4 () {48 vars in 992 bytes} [Mon Jan 21 07:32:03 2019] GET /blog/00154799906223357eb90445e5141aa8d3ef58b274ad6bb000 => generated 19230 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 72/72] 202.120.209.4 () {46 vars in 851 bytes} [Mon Jan 21 07:32:10 2019] GET / => generated 28004 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 73/73] 14.116.133.168 () {46 vars in 1373 bytes} [Mon Jan 21 07:33:45 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 74/74] 183.3.227.100 () {46 vars in 1372 bytes} [Mon Jan 21 07:33:48 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 75/75] 157.255.172.125 () {42 vars in 705 bytes} [Mon Jan 21 07:33:48 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 76/76] 58.251.103.172 () {42 vars in 704 bytes} [Mon Jan 21 07:33:48 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 77/77] 61.129.8.203 () {46 vars in 1371 bytes} [Mon Jan 21 07:33:48 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 78/78] 183.192.201.97 () {42 vars in 704 bytes} [Mon Jan 21 07:33:48 2019] GET / => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 79/79] 58.247.212.69 () {46 vars in 1372 bytes} [Mon Jan 21 07:33:49 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 80/80] 61.151.178.176 () {46 vars in 1373 bytes} [Mon Jan 21 07:33:49 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 81/81] 183.36.112.205 () {46 vars in 1373 bytes} [Mon Jan 21 07:33:49 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 82/82] 112.60.1.124 () {42 vars in 702 bytes} [Mon Jan 21 07:33:49 2019] GET / => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 83/83] 157.255.172.24 () {42 vars in 704 bytes} [Mon Jan 21 07:33:49 2019] GET / => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 84/84] 61.151.178.167 () {46 vars in 1373 bytes} [Mon Jan 21 07:33:49 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 85/85] 61.151.178.170 () {46 vars in 1373 bytes} [Mon Jan 21 07:33:49 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 86/86] 101.226.225.59 () {46 vars in 1373 bytes} [Mon Jan 21 07:33:49 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 87/87] 61.129.6.148 () {46 vars in 1371 bytes} [Mon Jan 21 07:33:50 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 88/88] 61.129.10.43 () {46 vars in 1371 bytes} [Mon Jan 21 07:33:50 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 89/89] 61.151.178.168 () {46 vars in 1373 bytes} [Mon Jan 21 07:33:50 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 90/90] 61.151.179.27 () {46 vars in 1372 bytes} [Mon Jan 21 07:33:50 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 91/91] 61.129.7.217 () {46 vars in 1371 bytes} [Mon Jan 21 07:33:51 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 92/92] 61.129.7.217 () {46 vars in 1371 bytes} [Mon Jan 21 07:33:51 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 93/93] 14.116.137.166 () {46 vars in 1373 bytes} [Mon Jan 21 07:33:52 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 94/94] 112.60.1.97 () {42 vars in 701 bytes} [Mon Jan 21 07:33:52 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 95/95] 157.255.172.21 () {42 vars in 704 bytes} [Mon Jan 21 07:33:52 2019] GET / => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 96/96] 101.226.225.84 () {46 vars in 1373 bytes} [Mon Jan 21 07:33:52 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ2FwVdCpdTraPfkmTA2B12FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 97/97] 202.120.209.4 () {46 vars in 835 bytes} [Mon Jan 21 07:33:53 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 98/98] 202.120.209.4 () {46 vars in 802 bytes} [Mon Jan 21 07:33:54 2019] GET / => generated 28004 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 99/99] 202.120.209.4 () {46 vars in 829 bytes} [Mon Jan 21 07:34:01 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 100/100] 113.140.11.123 () {40 vars in 664 bytes} [Mon Jan 21 07:34:25 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 101/101] 113.140.11.123 () {42 vars in 711 bytes} [Mon Jan 21 07:34:35 2019] GET /blogs => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 102/102] 113.140.11.123 () {42 vars in 713 bytes} [Mon Jan 21 07:34:36 2019] GET /blogs/ => generated 23606 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 103/103] 61.151.207.186 () {36 vars in 1043 bytes} [Mon Jan 21 07:34:45 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ%2FwVdCpdTraPfkmTA%2B1%2FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq%2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg%3D%3D => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 104/104] 101.91.60.106 () {36 vars in 1062 bytes} [Mon Jan 21 07:34:49 2019] GET /?nsukey=dtJ1ChJ3HgESRCtE8vLAqvKDd5Vk3zf5buwc1bTsGGKiEaQPEH8WGvMTWTWqNbNqjxtawUdVctSnKOUZ%2FwVdCpdTraPfkmTA%2B1%2FM1SGCv8BW6oKhoqM96sweDChGqBRkdTNGx1uPZdEKdlpciOMhl3Xk9HiHyIhH2UGdnCqGtNzq%2FHOZA7uXYLyVisPi1wD1ZKEqodd0VrQNkKRKoT3qGg%3D%3D => generated 26598 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 105/105] 113.140.11.123 () {42 vars in 817 bytes} [Mon Jan 21 07:35:18 2019] GET /blog/001548037904444007ead0bec364738b79d6f77ec45095c000 => generated 18222 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 106/106] 113.140.11.123 () {42 vars in 756 bytes} [Mon Jan 21 07:35:34 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 107/107] 113.140.11.123 () {42 vars in 713 bytes} [Mon Jan 21 07:35:36 2019] GET /blogs/ => generated 23606 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 108/108] 113.140.11.123 () {42 vars in 719 bytes} [Mon Jan 21 07:35:41 2019] GET /signin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 113 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 109/109] 113.140.11.123 () {42 vars in 721 bytes} [Mon Jan 21 07:35:41 2019] GET /signin/ => generated 12574 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 110/110] 113.140.11.123 () {42 vars in 724 bytes} [Mon Jan 21 07:35:45 2019] GET /register => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 115 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 111/111] 113.140.11.123 () {42 vars in 726 bytes} [Mon Jan 21 07:35:45 2019] GET /register/ => generated 13963 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 112/112] 113.140.11.123 () {48 vars in 832 bytes} [Mon Jan 21 07:36:25 2019] POST /register/ => generated 16 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 113/113] 113.140.11.123 () {44 vars in 764 bytes} [Mon Jan 21 07:36:28 2019] GET / => generated 28004 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 114/114] 113.140.11.123 () {44 vars in 767 bytes} [Mon Jan 21 07:36:29 2019] GET /blogs/ => generated 25012 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 115/115] 113.140.11.123 () {44 vars in 871 bytes} [Mon Jan 21 07:37:00 2019] GET /blog/00154799346660027676b5f52cf4763ad2c3adbd9e67b56000 => generated 21683 bytes in 19 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 116/116] 113.140.11.123 () {52 vars in 1101 bytes} [Mon Jan 21 07:37:19 2019] POST /blog/00154799346660027676b5f52cf4763ad2c3adbd9e67b56000 => generated 0 bytes in 11 msecs (HTTP/1.1 302) 5 headers in 192 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 117/117] 113.140.11.123 () {46 vars in 951 bytes} [Mon Jan 21 07:37:19 2019] GET /blog/00154799346660027676b5f52cf4763ad2c3adbd9e67b56000 => generated 23023 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 118/118] 202.120.209.4 () {46 vars in 835 bytes} [Mon Jan 21 07:37:33 2019] GET /blogs/ => generated 25012 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 119/119] 202.120.209.4 () {46 vars in 802 bytes} [Mon Jan 21 07:37:34 2019] GET / => generated 28004 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 120/120] 202.120.209.4 () {46 vars in 818 bytes} [Mon Jan 21 07:37:38 2019] GET /write.blog/ => generated 14091 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 121/121] 202.120.209.4 () {46 vars in 829 bytes} [Mon Jan 21 07:37:42 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 122/122] 202.120.209.4 () {46 vars in 824 bytes} [Mon Jan 21 07:37:43 2019] GET /write.blog/ => generated 14091 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 123/123] 202.120.209.4 () {46 vars in 829 bytes} [Mon Jan 21 07:37:45 2019] GET /write.blog/ => generated 14091 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 124/124] 202.120.209.4 () {46 vars in 840 bytes} [Mon Jan 21 07:37:46 2019] GET /blogs/ => generated 25012 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 125/125] 202.120.209.4 () {46 vars in 824 bytes} [Mon Jan 21 07:37:46 2019] GET /write.blog/ => generated 14091 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 126/126] 202.120.209.4 () {46 vars in 829 bytes} [Mon Jan 21 07:37:48 2019] GET /write.blog/ => generated 14091 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 127/127] 202.120.209.4 () {46 vars in 840 bytes} [Mon Jan 21 07:37:48 2019] GET /blogs/ => generated 25012 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 128/128] 202.120.209.4 () {46 vars in 802 bytes} [Mon Jan 21 07:37:49 2019] GET / => generated 28004 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 129/129] 106.11.223.23 () {40 vars in 836 bytes} [Mon Jan 21 07:41:22 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 130/130] 106.11.222.238 () {38 vars in 722 bytes} [Mon Jan 21 07:41:41 2019] GET / => generated 26598 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 131/131] 66.102.8.1 () {40 vars in 658 bytes} [Mon Jan 21 07:44:26 2019] GET /register/ => generated 13963 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 132/132] 43.225.169.210 () {32 vars in 448 bytes} [Mon Jan 21 08:03:22 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 133/133] 202.120.209.4 () {46 vars in 835 bytes} [Mon Jan 21 08:06:40 2019] GET /blogs/ => generated 25012 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+Not Found: /azenv.php
+[pid: 2367|app: 0|req: 134/134] 95.213.177.125 () {40 vars in 692 bytes} [Mon Jan 21 08:17:10 2019] POST /azenv.php?auth=154805863059&a=PSCN&i=1779339855&p=80 => generated 2924 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 135/135] 77.121.164.2 () {32 vars in 453 bytes} [Mon Jan 21 08:35:47 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 136/136] 212.115.250.202 () {32 vars in 449 bytes} [Mon Jan 21 09:41:14 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 137/137] 113.140.11.123 () {46 vars in 950 bytes} [Mon Jan 21 09:52:32 2019] GET /blog/00154799346660027676b5f52cf4763ad2c3adbd9e67b56000 => generated 23023 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 138/138] 217.171.83.19 () {32 vars in 448 bytes} [Mon Jan 21 09:54:44 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 139/139] 187.10.187.72 () {32 vars in 447 bytes} [Mon Jan 21 10:40:35 2019] GET / => generated 26598 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 140/140] 106.11.222.148 () {40 vars in 821 bytes} [Mon Jan 21 10:41:50 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 141/141] 106.11.222.118 () {38 vars in 717 bytes} [Mon Jan 21 10:42:07 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 142/142] 185.247.62.106 () {38 vars in 488 bytes} [Mon Jan 21 10:46:03 2019] POST / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 143/143] 113.96.219.247 () {46 vars in 1381 bytes} [Mon Jan 21 13:12:41 2019] GET /?nsukey=L9DmsOL3dpFuO2BX6hG9yzPA2BJNmog2BwcNii4eBiO2B4X7kHqFF2BHWu7nqR9qKijZngANP2BLqfjShRA80qx3nge7cOG5UsKjN3cAaeLLvDJg1allNK76vpXH2Fr3PE84I00rdAdsBbSOIbZ8qiAZTnlxSRzC4XTRgJC13MiiylQuO7NJOrKAjogm4E1WzsW0nlu2F8oiAELnpixAHygoHLzatA3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 144/144] 14.116.133.170 () {42 vars in 704 bytes} [Mon Jan 21 13:12:41 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 145/145] 157.255.172.20 () {42 vars in 704 bytes} [Mon Jan 21 13:12:41 2019] GET / => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 146/146] 58.247.212.55 () {46 vars in 1380 bytes} [Mon Jan 21 13:12:52 2019] GET /?nsukey=L9DmsOL3dpFuO2BX6hG9yzPA2BJNmog2BwcNii4eBiO2B4X7kHqFF2BHWu7nqR9qKijZngANP2BLqfjShRA80qx3nge7cOG5UsKjN3cAaeLLvDJg1allNK76vpXH2Fr3PE84I00rdAdsBbSOIbZ8qiAZTnlxSRzC4XTRgJC13MiiylQuO7NJOrKAjogm4E1WzsW0nlu2F8oiAELnpixAHygoHLzatA3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 147/147] 61.151.178.180 () {46 vars in 1381 bytes} [Mon Jan 21 13:12:57 2019] GET /?nsukey=L9DmsOL3dpFuO2BX6hG9yzPA2BJNmog2BwcNii4eBiO2B4X7kHqFF2BHWu7nqR9qKijZngANP2BLqfjShRA80qx3nge7cOG5UsKjN3cAaeLLvDJg1allNK76vpXH2Fr3PE84I00rdAdsBbSOIbZ8qiAZTnlxSRzC4XTRgJC13MiiylQuO7NJOrKAjogm4E1WzsW0nlu2F8oiAELnpixAHygoHLzatA3D3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 148/148] 61.129.8.203 () {42 vars in 702 bytes} [Mon Jan 21 13:12:57 2019] GET / => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 149/149] 183.192.164.79 () {42 vars in 704 bytes} [Mon Jan 21 13:12:57 2019] GET / => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 150/150] 61.151.179.84 () {36 vars in 639 bytes} [Mon Jan 21 13:13:39 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 151/151] 101.89.239.216 () {36 vars in 1106 bytes} [Mon Jan 21 13:13:41 2019] GET /?nsukey=L9DmsOL3dpFuO%2BX6hG9yzPA%2BJNmog%2BwcNii4eBiO%2B4X7kHqFF%2BHWu7nqR9qKijZngANP%2BLqfjShRA80qx3nge7cOG5UsKjN3cAaeLLvDJg1allNK76vpXH%2Fr3PE84I00rdAdsBbSOIbZ8qiAZTnlxSRzC4XTRgJC13MiiylQuO7NJOrKAjogm4E1WzsW0nlu%2F8oiAELnpixAHygoHLzatA%3D%3D => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 152/152] 221.192.179.134 () {42 vars in 709 bytes} [Mon Jan 21 13:13:44 2019] GET / => generated 26598 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 153/153] 221.192.179.134 () {44 vars in 762 bytes} [Mon Jan 21 13:13:49 2019] GET /register => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 115 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 154/154] 221.192.179.134 () {44 vars in 764 bytes} [Mon Jan 21 13:13:49 2019] GET /register/ => generated 13963 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 155/155] 61.129.6.225 () {36 vars in 1071 bytes} [Mon Jan 21 13:13:57 2019] GET /?nsukey=L9DmsOL3dpFuO%2BX6hG9yzPA%2BJNmog%2BwcNii4eBiO%2B4X7kHqFF%2BHWu7nqR9qKijZngANP%2BLqfjShRA80qx3nge7cOG5UsKjN3cAaeLLvDJg1allNK76vpXH%2Fr3PE84I00rdAdsBbSOIbZ8qiAZTnlxSRzC4XTRgJC13MiiylQuO7NJOrKAjogm4E1WzsW0nlu%2F8oiAELnpixAHygoHLzatA%3D%3D => generated 26598 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 156/156] 221.192.179.134 () {50 vars in 875 bytes} [Mon Jan 21 13:14:11 2019] POST /register/ => generated 16 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 255 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 157/157] 221.192.179.134 () {46 vars in 809 bytes} [Mon Jan 21 13:14:16 2019] GET / => generated 28004 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 2367|app: 0|req: 158/158] 202.120.209.4 () {46 vars in 835 bytes} [Mon Jan 21 13:15:16 2019] GET /blogs/ => generated 25013 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)

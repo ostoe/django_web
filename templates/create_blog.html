@@ -1,0 +1,88 @@
+{% extends '__base__.html' %}
+
+{% block _script %}
+
+    <script>
+        function submitForm() {
+            var title = document.getElementById("title").value;
+            var abstract = document.getElementById('abstract').value;
+            var content = document.getElementById("content").value;
+            if (!title.trim()) {
+                myalert('请输入标题');return false;
+            }
+            if (!abstract.trim()) {
+                myalert('请输入摘要');return false;
+            }
+            if (!content.trim()) {
+                myalert('请输入正文');return false;
+            }
+            $.post("/write.blog/", {
+                    title: title,
+                    abstract: abstract,
+                    content: content
+                },
+                function (data, status) {
+                    if (data.status != "well") {
+                        myalert("创建失败");return false;
+                    }
+                        {#myalert("数据：" + data.status + "\n状态：" + status);#}
+                    else {
+                        myalert("创建成功");
+                        return location.assign('/blogs');
+                    }
+                });
+        }
+
+    </script>
+
+
+{% endblock %}
+
+
+{% block content_section %}
+    <section class="blog-content">
+        <div class="container">
+            <div class="row">
+                <main class="col-md-12 " style="display: block;">
+                    <div class="col-md-12   comment-post">
+                        <h2 class="col-md-12 ">标题</h2>
+                        <form id="myForm">
+                            <div class="raw">
+                                <div class="col-md-12 ">
+                                    <div class="form-group ">
+                                        <input name="name" type="text" class="form-control" style=" font-size:26px; "
+                                               id="title" maxlength="50"
+                                               required="required" placeholder="标题">
+                                    </div>
+                                </div>
+                            </div>
+
+                                <div class="col-md-12 form-group">
+                                            <textarea name="message" style=" font-size:26px; " type="text" class="form-control" id="abstract"
+                                                      rows="3" required="required"
+                                                      placeholder="摘要"></textarea>
+                                </div>
+                            <div class="col-md-12 form-group">
+                                            <textarea style=" font-size:26px; " name="message" type="text" class="form-control" id="content"
+                                                      rows="15" required="required"
+                                                      placeholder="正文"></textarea>
+                                </div>
+                            <div class="col-md-12  col-lg-6">
+                                <button type="button" id="submit" name="submit" class="btn btn-black"
+                                        onclick="submitForm();">submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+    <section>
+        <br><br><br><br>
+    </section>
+
+
+
+
+{% endblock %}
