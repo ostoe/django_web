@@ -1,3 +1,5 @@
+
+
 import requests
 import re
 from PIL import Image
@@ -43,14 +45,28 @@ import time
 
 
 chars = string.ascii_letters+string.digits
-url = "https://api.berryapi.net/bing/random/?560/400"
-for _ in range(200):
-    res = requests.get(url)
+headers = {"User-Agent": "PostmanRuntime/7.30.1",
+'Accept': '*/*',
+'Accept-Encoding': 'gzip, deflate, br',
+'Connection': 'keep-alive'}
+url = "https://bing.ioliu.cn/v1/rand?w=560&h=400"
+requests.packages.urllib3.disable_warnings()
+for _ in range(0):
+    res = requests.get(url, headers = headers, verify=False)
     name = ''.join(random.choices(chars,k=20))
-    with open('static/img/headimgs/'+name+'.jpg', 'wb') as fp:
-        fp.write(res.content)
+    if res.status_code == 200:
+        with open('static/img/headimgs/'+name+'.jpg', 'wb') as fp:
+            fp.write(res.content)
+    else:
+        print(res.status_code, res)
 
-
-
-from scipy.interpolate import interp2d
-interp2d
+url = "https://bing.ioliu.cn/v1/rand?w=1024&h=633"
+requests.packages.urllib3.disable_warnings()
+for _ in range(5):
+    res = requests.get(url, headers = headers, verify=False)
+    name = ''.join(random.choices(chars,k=20))
+    if res.status_code == 200:
+        with open('static/img/blogimgs/'+name+'.jpg', 'wb') as fp:
+            fp.write(res.content)
+    else:
+        print(res.status_code, res)

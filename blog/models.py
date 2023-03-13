@@ -9,7 +9,7 @@ class Users(models.Model):
     name = models.CharField(max_length=50)
     email = models.EmailField(max_length=50)
     passwd = models.CharField(max_length=50)
-    head_img = models.ImageField(upload_to='headimg')
+    head_img = models.ImageField(upload_to='headimgs')
     admin = models.IntegerField(default=0)
     created_at = models.FloatField(default=0.0)
 

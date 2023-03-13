@@ -65,6 +65,19 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+            ],   
+        },
+    },
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
             ],
         },
     },
@@ -84,7 +97,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mysite',
         'USER': 'root',
-        'PASSWORD': '0225',
+        'PASSWORD': 'mysql0225',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'CHARSET':'utf8',
@@ -143,5 +156,5 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE =False  # 是否关闭浏览器使得Session过�
 SESSION_SAVE_EVERY_REQUEST = False
 
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/img/')
 MEDIA_URL = '/media/'
