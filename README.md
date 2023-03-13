@@ -3,6 +3,8 @@
 
 ### 网址为：https://www.foreseeu.top/
 
+![img](static/img/md-1.png)
+
 #### Done---> 主页显示
 #### Done---> 创建blog；显示blog；加入头像(头像目前随机储存在本地)
 #### Done---> 用户注册，登录
