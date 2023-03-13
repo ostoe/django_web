@@ -8,6 +8,9 @@
 #### Done---> 用户注册，登录
 
 
+先运行
+prexxx.py 拉取图片；
+
 ```bash
  # ref: https://docs.djangoproject.com/zh-hans/4.1/topics/migrations/
 python manage.py makemigrations
