@@ -1,7 +1,7 @@
 # django_web
 # 使用django + uwsgi + nginx开发部署的blog网站
 
-### 网址为：https://ostoe.eu.org/
+### 网址：https://ostoe.eu.org/
 
 ![img](static/img/md-1.png)
 
