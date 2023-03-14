@@ -1,7 +1,7 @@
 # django_web
-# 使用django做的blog网站
+# 使用django + uwsgi + nginx开发部署的blog网站
 
-### 网址为：https://www.foreseeu.top/
+### 网址为：https://ostoe.eu.org/
 
 ![img](static/img/md-1.png)
 
@@ -11,7 +11,7 @@
 
 
 先运行
-prexxx.py 拉取图片；
+python prexxx.py 拉取图片；
 
 ```bash
  # ref: https://docs.djangoproject.com/zh-hans/4.1/topics/migrations/
